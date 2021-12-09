@@ -18,7 +18,7 @@
 # error precaution.
 set -e
 
-WORK_DIR="SessionBot"
+WORK_DIR="StringBot"
 mkdir -p $WORK_DIR
 
 disp () {
