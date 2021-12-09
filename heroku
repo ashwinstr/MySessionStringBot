@@ -91,7 +91,7 @@ _startbot () {
     cd "SessionBot"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
-    bash run
+    python -m jutsu
 }
 
 begin_x () {
