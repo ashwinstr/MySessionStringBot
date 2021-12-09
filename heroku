@@ -67,7 +67,7 @@ get_branch () {
 }
 
 get_ziplink () {
-    echo "https://github.com/ashwinstr/JutsuSession$(get_branch)"
+    echo "https://github.com/ashwinstr/JutsuSessionBot$(get_branch)"
 }
 
 _setup_repo () {
