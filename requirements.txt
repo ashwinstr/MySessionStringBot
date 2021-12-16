@@ -1,6 +1,8 @@
-gitpython
+dnspython
 heroku3
-python-decouple
+motor
+pymongo
 pyrogram==1.2.11
+pyromod
 telegraph
 TgCrypto
