@@ -67,7 +67,7 @@ get_branch () {
 }
 
 get_ziplink () {
-    echo "https://github.com/ashwinstr/JutsuSessionBot$(get_branch)"
+    echo "https://github.com/ashwinstr/genStr_private$(get_branch)"
 }
 
 _setup_repo () {
@@ -91,7 +91,7 @@ _startbot () {
     cd "SessionBot"
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
-    python -m jutsu
+    bash run
 }
 
 begin_x () {
